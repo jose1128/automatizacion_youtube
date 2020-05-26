@@ -10,5 +10,13 @@ pipeline{
             }
         }
 
+        steps("test"){
+            echo 'testing the aplications'
+        }
+
+        steps("deploy"){
+            echo 'deploying the applications'
+        }
+
     }
 }
