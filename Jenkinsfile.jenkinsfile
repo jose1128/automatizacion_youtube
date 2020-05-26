@@ -11,7 +11,7 @@ pipeline{
         }
 
         steps("test"){
-            echo 'testing the aplications'
+            echo 'testing the aplications validate'
         }
 
         steps("deploy"){
